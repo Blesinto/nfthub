@@ -9,7 +9,7 @@ const Faq = () => {
     setSelected(selected === i ? null : i);
   };
   return (
-    <div className='container max-w-full sss:max-w-[90%] sss:m-auto flex flex-col items-center justify-center'>
+    <div className='container max-w-full sss:max-w-[100%] sss:m-auto flex flex-col items-center justify-center'>
       <div
         className='flex items-center justify-center m-[5rem] w-[15rem] '
         data-aos='zoom-in'
@@ -22,14 +22,14 @@ const Faq = () => {
           </span>
         </h1>
       </div>
-      <div className='bg_p p-3 sss:p-0'>
+      <div className='bg_p p-3 '>
         {data.map(({ title, desc, id }, i) => (
-          <div key={id} className='m-2 cursor-pointer'>
+          <div key={id} className='m-2  cursor-pointer'>
             <div
               className='flex items-center justify-between'
               onClick={() => toggle(i)}
             >
-              <h1 className='font-bold text-black'>{title}</h1>
+              <h1 className='font-bold text-black sss:text-[14px]'>{title}</h1>
               <span className='text-3xl  '>
                 {selected === i ? (
                   <RiArrowDropUpLine />
@@ -43,7 +43,7 @@ const Faq = () => {
                 selected === i ? 'max-h-96' : 'max-h-0'
               }`}
             >
-              <p className='w-[350px] text-[12px] mt-2'>{desc}</p>
+              <p className='w-[350px] sss:w-[250px] text-[12px] mt-2'>{desc}</p>
             </div>
           </div>
         ))}

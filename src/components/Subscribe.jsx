@@ -2,11 +2,11 @@ const Subscribe = () => {
   return (
     <div className='container mt-[10rem]'>
       <div
-        className='flex flex-col justify-center items-center border border-slate-400 p-[5rem] rounded-lg'
+        className='flex flex-col justify-center items-center border border-slate-400 p-[5rem] sss:p-[2rem] rounded-lg'
         data-aos='zoom-in'
         data-aos-offset='800'
       >
-        <h1 className='text-3xl font-bold'>
+        <h1 className='text-3xl sss:text-2xl font-bold'>
           Never{' '}
           <span className=' bg-gradient-to-r from-[#2600FC] to-[#FF00EA] tp'>
             miss a drop!
@@ -16,7 +16,10 @@ const Subscribe = () => {
           Subscribe to our super-rare and exclusive drops & collectibles.
         </h5>
         <form className='mt-4'>
-          <label htmlFor='email' className='flex items-center justify-center '>
+          <label
+            htmlFor='email'
+            className='flex sss:flex-col items-center justify-center '
+          >
             <input
               id='email'
               type='email'
