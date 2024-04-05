@@ -36,8 +36,9 @@ const Carousel = () => {
           <div>
             <img src={caro_1} alt='' />
           </div>
-          <div>
+          <div className='sss:text-center'>
             <h3>#Metaverse</h3>
+            <span className='text-[10px]'>By TheSalvare</span>
           </div>
         </div>
 
@@ -45,8 +46,9 @@ const Carousel = () => {
           <div>
             <img src={caro2} alt='' />
           </div>
-          <div>
-            <h3>#Metaverse</h3>
+          <div className='sss:text-center'>
+            <h3>#Polly Doll</h3>
+            <span className='text-[10px]'>By TheSalvare</span>
           </div>
         </div>
 
@@ -54,8 +56,9 @@ const Carousel = () => {
           <div>
             <img src={caro3} alt='' />
           </div>
-          <div>
-            <h3>#Metaverse</h3>
+          <div className='sss:text-center'>
+            <h3>#Alec Art</h3>
+            <span className='text-[10px]'>By GeorgZvic</span>
           </div>
         </div>
 
@@ -63,8 +66,9 @@ const Carousel = () => {
           <div>
             <img src={caro4} alt='' />
           </div>
-          <div>
-            <h3>#Metaverse</h3>
+          <div className='sss:text-center'>
+            <h3>#Toxic Poeth</h3>
+            <span className='text-[10px]'>By YazoiLup</span>
           </div>
         </div>
       </Slider>

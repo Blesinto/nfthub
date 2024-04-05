@@ -28,7 +28,7 @@ const Works = () => {
   return (
     <div className='container mt-[10rem]'>
       <div
-        className='flex items-center justify-center mb-[5rem]'
+        className='flex items-center sss:text-center justify-center mb-[5rem]'
         data-aos='zoom-in'
         data-aos-offset='50'
       >
@@ -43,7 +43,7 @@ const Works = () => {
       {works.map(({ img, title, id, desc }, index) => (
         <div
           key={id}
-          className='flex justify-between  items-center sss:flex-col-reverse '
+          className='flex justify-between sss:text-center sss:justify-center  items-center sss:flex-col-reverse '
         >
           <div
             className={` ${
@@ -67,7 +67,7 @@ const Works = () => {
               0{id}
             </h5>
             <h1
-              className='font-bold text-2xl w-[15rem]'
+              className='font-bold text-2xl w-[15rem] sss:w-full'
               data-aos='fade-up'
               data-aos-offset='200'
               data-aos-duration='500'
@@ -76,12 +76,12 @@ const Works = () => {
             </h1>
             <p
               dangerouslySetInnerHTML={{ __html: desc }}
-              className='w-[300px] mt-8 text-[13px] '
+              className='w-[300px]  mt-8 text-[13px] '
               data-aos='fade-up'
               data-aos-offset='500'
             ></p>
             <div
-              className='flex mt-6 items-center mb-8 '
+              className='flex sss:justify-center mt-6 items-center mb-[5rem] '
               data-aos='fade-up'
               data-aos-offset='500'
             >
@@ -90,7 +90,7 @@ const Works = () => {
               </a>
               <span>
                 {' '}
-                <GoArrowUpRight className='text-[13px]' />
+                <GoArrowUpRight className='text-[13px] sss:text-center' />
               </span>
             </div>
           </div>

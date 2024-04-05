@@ -34,8 +34,11 @@ const meet = [
 
 const Meet = () => (
   <div className='container  mt-[5rem]'>
-    <div className='flex items-center justify-center mb-[5rem]' data-aos='zoom-in'
-      data-aos-offset='200'>
+    <div
+      className='flex items-center sss:w-auto justify-center mb-[5rem]'
+      data-aos='zoom-in'
+      data-aos-offset='200'
+    >
       <h1 className='text-3xl font-bold'>
         Meet{' '}
         <span className=' bg-gradient-to-r from-[#2600FC] to-[#FF00EA] tp'>
@@ -44,13 +47,13 @@ const Meet = () => (
       </h1>
     </div>
 
-    <div className=' flex justify-center items-center sss:flex-col'>
+    <div className=' flex justify-center items-center sss:w-[332px] sss:justify-start  sss:flex-wrap'>
       {meet.map(({ id, img, name, prof }, index) => (
         <div
           key={id}
           className={`${
-            index % 2 === 0 ? 'top-[2rem]' : ''
-          } p-10 text-center  m-2 relative`}
+            index % 2 === 0 ? 'top-[2rem] sss:top-0' : ''
+          } p-10 sss:p-6 text-center   m-2 relative`}
         >
           <img src={img} alt='' className='w-[6rem]' />
           <h1 className='font-bold mt-4 '>{name}</h1>
