@@ -24,12 +24,12 @@ const Choose = () => (
         <div
           key={id}
           className={`${
-            index % 2 === 1 ? 'top-[2rem]' : ''
-          } p-4 bg_p m-2 relative transition-transform transform-gpu hover:bg-[#FF00EA] hover:text-white cursor-pointer`}
+            index % 2 === 1 ? 'top-[2rem] sss:top-0' : ''
+          } p-4 sss:p-8  bg_p m-2 relative transition-transform transform-gpu hover:bg-[#FF00EA] hover:text-white cursor-pointer`}
           data-aos='fade-up'
         >
           <img src={img} alt={title} className='w-[30px] mt-[1rem]' />
-          <h2 className='mt-4 text-[#0F051D] font-bold text-base w-2 '>
+          <h2 className='mt-4 text-[#0F051D] font-bold text-base sss:text-[1.5rem] w-2 '>
             {title}
           </h2>
           <p

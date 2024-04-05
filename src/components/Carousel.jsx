@@ -8,8 +8,6 @@ import caro3 from '../assets/caro_3.png';
 import caro4 from '../assets/caro_4.png';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
-
-
 const Carousel = () => {
   const settings = {
     dots: true,
@@ -32,7 +30,7 @@ const Carousel = () => {
     ],
   };
   return (
-    <div className='slider-container' data-aos='fade-up'>
+    <div className='slider-container sss:w-auto sss:m-auto' data-aos='fade-up'>
       <Slider {...settings}>
         <div className='p-4'>
           <div>
