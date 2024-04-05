@@ -26,14 +26,18 @@ const Navbar = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <nav
-        className={`w-full sss:py-4 sss:ps-0 sss:pe-0  py-8  flex justify-center items-center ${
+        className={`w-full  sss:ps-[-2rem] sss:pe-0  py-8 flex justify-center items-center ${
           Sticky
             ? 'fixed left-0 pe-[9rem] ps-[9rem] sss:ps-4 sss:pe-4 top-0 z-[100] bg-white '
             : ''
         }`}
       >
         <div className='flex-1'>
-          <img src={logo} alt='Nfthub' className='w-[120px]  sss:mr-[5rem]' />
+          <img
+            src={logo}
+            alt='Nfthub'
+            className='w-[120px] sss:w-[100px]  sss:mr-[5rem]'
+          />
         </div>
 
         {/* navlinks  */}
@@ -69,7 +73,7 @@ const Navbar = () => {
         {/* nav icon  */}
         <div>
           {/* Menu icon for small screens */}
-          <CgMenu className='hidden sss:flex text-2xl cursor-pointer' />
+          <CgMenu className='hidden sss:flex text-3xl cursor-pointer' />
         </div>
       </nav>
     </div>
