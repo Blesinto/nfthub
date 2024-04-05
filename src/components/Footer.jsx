@@ -1,5 +1,5 @@
 const Footer = () => (
-  <div className='container'>
+  <div className='containr pe-[10rem] ps-[8rem] sss:ps-0 sss:pe-0'>
     <footer className='  py-8 px-4   mt-[10rem]'>
       <div className='flex sss:flex-col justify-between'>
         <div className='w-full sm:w-auto mb-8 sm:mb-0'>

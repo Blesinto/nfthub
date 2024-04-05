@@ -5,7 +5,7 @@ import exdous from '../assets/exdous.png';
 import trustwallet from '../assets/trustwallet.png';
 
 const Brand = () => (
-  <div className='container'>
+  <div className='container mt-[10rem]  sss:mt-[25rem]'>
     <div
       className='flex items-center justify-center mt-[5rem] sss:flex-col sss:mt-[7rem]'
       data-aos='zoom-in'

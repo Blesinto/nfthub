@@ -19,7 +19,6 @@ const App = () => (
   <div>
     <Navbar />
     <HeroSection />
-    {/* brands  */}
     <Brand />
     <Collections />
     <Choose />

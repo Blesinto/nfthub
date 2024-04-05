@@ -20,7 +20,7 @@ const HeroSection = () => (
           Opensea.
         </p>
         <div data-aos='fade-right '>
-          <button className='flex text-[12px]  mt-8 bg-gradient-to-r from-[#2600FC] to-[#FF00EA]  hover:from-[#FF00EA] hover:to-[#2600FC]  text-white px-8 py-4 sss:px-6 sss:py-4 sss:text-[10px] sss:mx-auto rounded-full'>
+          <button className='flex text-[12px]  mt-8 bg-gradient-to-r from-[#2600FC] to-[#FF00EA]  hover:from-[#FF00EA] hover:to-[#2600FC]  text-white px-8 py-4 sss:px-8 sss:py-4 sss:text-[10px] sss:mx-auto rounded-full'>
             View in OPENSEA
             <span>
               <GoArrowUpRight />
@@ -28,26 +28,26 @@ const HeroSection = () => (
           </button>
         </div>
 
-        <div className='mt-4' data-aos='fade-right'>
+        <div className='mt-8' data-aos='fade-right'>
           <div className='flex items-center '>
             <div className='flex sss:mx-auto'>
               <img
                 src={prof_1}
                 alt=''
-                className='mr-[-2rem] w-[50px] h-[50px]  sss:w-[30px] sss:h-[30px] sss:mr-[-1rem]'
+                className='mr-[-2rem] w-[50px] h-[50px]  sss:w-[42px] sss:h-[42px] sss:mr-[-1.5rem]'
               />
               <img
                 src={prof_2}
                 alt=''
-                className='mr-[-2rem] w-[50px] h-[50px] sss:w-[30px] sss:h-[30px] sss:mr-[-1rem]'
+                className='mr-[-2rem] w-[50px] h-[50px] sss:w-[42px] sss:h-[42px] sss:mr-[-1.5rem]'
               />
               <img
                 src={prof_3}
                 alt=''
-                className='mr-[-1rem] w-[50px] h-[50px] sss:w-[30px] sss:h-[30px] sss:mr-0'
+                className='mr-[0.5rem] w-[50px] h-[50px] sss:w-[42px] sss:h-[42px] '
               />
             </div>
-            <div className='flex flex-col ml-0 '>
+            <div className='flex flex-col  sss:relative sss:right-14 sss:text-start'>
               <h1 className=' font-bold text-xl '>47k+</h1>
               <p className='text-[10px] '>Community members</p>
             </div>

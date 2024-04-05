@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav
         className={`w-full sss:py-4 sss:ps-0 sss:pe-0  py-8  flex justify-center items-center ${
           Sticky
-            ? 'fixed left-0 pe-[9rem] ps-[9rem]  sss:ps-4 sss:pe-4 top-0 z-[100] bg-white '
+            ? 'fixed left-0 pe-[9rem] ps-[9rem] sss:ps-4 sss:pe-4 top-0 z-[100] bg-white '
             : ''
         }`}
       >

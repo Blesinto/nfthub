@@ -25,7 +25,7 @@ const Works = () => {
     },
   ]);
   return (
-    <div className='container mt-10'>
+    <div className='container mt-[10rem]'>
       <div
         className='flex items-center justify-center mb-[5rem]'
         data-aos='zoom-in'
@@ -47,16 +47,16 @@ const Works = () => {
           <div
             className={` ${index % 2 === 1 ? 'order-2 sss:order-1  ' : ''} `}
             data-aos='fade-up'
-            data-aos-offset='800'
+            data-aos-offset='500'
             data-aos-duration='500'
           >
             <img src={img} alt={title} className='w-[340px]' />
           </div>
-          <div className={`order-1 ${index % 2 === 1 ? 'pl-8 ' : 'pr-8'}`}>
+          <div className={`order-1 ${index % 2 === 1 ? 'pl-8  ' : 'pr-8'}`}>
             <h5
               className=' tp text-sm font-bold bg-gradient-to-r from-[#2600FC] to-[#FF00EA]'
               data-aos='fade-up'
-              data-aos-offset='-20'
+              data-aos-offset='800'
               data-aos-duration='500'
             >
               0{id}
